@@ -16,8 +16,10 @@ git add [nome_arquivo]
 # e mostra também dos arquivos que já estão incluidos quais foram atualizados e podem ser atualizados no git.
 # nesse momento pode ser executado o commit. Ou seja o git irá pegar os arquivos do repositorio
 # o parametro m é para adicionar um comentario sobre quais mudanças foram feitas
-# sempre tem que adicionar antes de commit para que seja atualizado.
 git commit -m "Ajustado readme-git"
+
+# se a edicao é em um arquivo que ja existe dentro do git
+git commit -am "ajustado readme-git v4"
 
 # ciclo de vida status git
 # untracked (o git ainda não conhece o arquivo)>> unmodified (nao teve modificacao) >> modified (o arquivo foi alterado mais ainda não foi salvo) >> staged (pronto para commit)
@@ -36,3 +38,10 @@ git log --graph
 
 # para ver as modificações
 git show [hash_do_commit] 
+
+# para ver as mudanças antes mesmo de commit
+git diff
+
+# para pegar somente o nome do arquivo que foi modificado
+git diff --name-only
+
