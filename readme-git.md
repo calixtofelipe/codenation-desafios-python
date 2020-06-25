@@ -19,3 +19,20 @@ git add [nome_arquivo]
 # sempre tem que adicionar antes de commit para que seja atualizado.
 git commit -m "Ajustado readme-git"
 
+# ciclo de vida status git
+# untracked (o git ainda não conhece o arquivo)>> unmodified (nao teve modificacao) >> modified (o arquivo foi alterado mais ainda não foi salvo) >> staged (pronto para commit)
+
+# comando para acompanhar os log
+git log
+
+# comando para ver a mensagem e quem fez
+git shortlog
+
+# ver quantidade commit e o nome
+git shortlog -sn
+
+# ver o log com grafico (acompanhar merge rebase)
+git log --graph
+
+# para ver as modificações
+git show [hash_do_commit] 
