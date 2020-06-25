@@ -45,3 +45,27 @@ git diff
 # para pegar somente o nome do arquivo que foi modificado
 git diff --name-only
 
+# para voltar o arquivo para antes da edição
+git checkout [nome_arquivo]
+
+# se adicionou a mudança e ainda não deu o commit e que voltar. O arquivo volta para o estagio anterior.
+git reset HEAD [nome_arquivo]
+
+# se deu o commit e quer resetar. o soft irá voltar para o estagio antes commit. O mixed irá voltar para o estagio modificado e não adicionado. 
+# O hard volta para o estagio sem modificacao
+git reset --soft --mixed --hard [hash_commit_anterior_ao_que_deseja_resetar]
+
+# para salvar no git online. cria um repositorio
+# (antes de salvar eu criei minha chave ssh no meu diretorio user/.ssh e salvei a hash no meu github para autenticar quando eu estiver usando minha máquina
+git remote add origin git@github.com:calixtofelipe/codenation-desafios-python.git
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
