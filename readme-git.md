@@ -16,5 +16,6 @@ git add [nome_arquivo]
 # e mostra também dos arquivos que já estão incluidos quais foram atualizados e podem ser atualizados no git.
 # nesse momento pode ser executado o commit. Ou seja o git irá pegar os arquivos do repositorio
 # o parametro m é para adicionar um comentario sobre quais mudanças foram feitas
+# sempre tem que adicionar antes de commit para que seja atualizado.
 git commit -m "Ajustado readme-git"
 
