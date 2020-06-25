@@ -1,0 +1,14 @@
+[
+  "test_submit.py::TestChalange2::()::test_instance_class",
+  "test_submit.py::TestChalange2::()::test_protected_attribute_manager",
+  "test_submit.py::TestChalange2::()::test_protected_attribute",
+  "test_submit.py::TestChalange2::()::test_total_hours_seller",
+  "test_submit.py::TestChalange2::()::test_total_hours_manager",
+  "test_submit.py::TestChalange2::()::test_get_department_seller",
+  "test_submit.py::TestChalange2::()::test_get_department_manager",
+  "test_submit.py::TestChalange2::()::test_sales_seller",
+  "test_submit.py::TestChalange2::()::test_protected_attribute_sales",
+  "test_submit.py::TestChalange2::()::test_calc_bonus_seller",
+  "test_submit.py::TestChalange2::()::test_calc_bonus_manger",
+  "test_submit.py::TestChalange2::()::test_get_sales_manger"
+]

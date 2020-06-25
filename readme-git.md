@@ -57,11 +57,24 @@ git reset --soft --mixed --hard [hash_commit_anterior_ao_que_deseja_resetar]
 
 # para salvar no git online. cria um repositorio
 # (antes de salvar eu criei minha chave ssh no meu diretorio user/.ssh e salvei a hash no meu github para autenticar quando eu estiver usando minha máquina
+# liga o meu repositorio local a um repositorio remoto
 git remote add origin git@github.com:calixtofelipe/codenation-desafios-python.git
+
+# esse comando é para verificar se já tem repositorio remote
+git remote -v
+
+# enviar para o repositorio remoto - o master é o branch padrão
 git push -u origin master
 
+# para pegar um repositorio e clonar para maquina local
+g clone [link_git_para_o_repositorio] [nome_para_o _repositorio_local]
 
+# o fork copia de um git remoto para o seu git remoto
+# caso queria modificar o repositorio e enviar para o proprietario com as modificações.
+# no clone é possível clonar porém não é possível enviar as modificações para o proprietario.
 
+# para adicionar tudo que esta no repositorio local ao git
+git add *
 
 
 

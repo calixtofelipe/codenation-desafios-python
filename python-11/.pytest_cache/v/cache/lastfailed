@@ -1,0 +1,9 @@
+{
+  "test_main.py::TestChallenge10::test_1": true,
+  "test_main.py::TestChallenge10::test_2": true,
+  "test_main.py::TestChallenge10::test_3": true,
+  "test_main.py::TestChallenge10::test_4": true,
+  "test_main.py::TestChallenge10::test_5": true,
+  "test_main.py::TestChallenge10::test_6": true,
+  "test_main.py::TestChallenge10::test_7": true
+}

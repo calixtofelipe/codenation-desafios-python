@@ -1,0 +1,8 @@
+[
+  "test_main.py::test_get_temperature_by_lat_lng[-14.235004--51.92528-62-16]",
+  "test_main.py::test_get_temperature_by_lat_lng[-10.235004-30.92528-100-37]",
+  "test_main.py::test_get_temperature_by_lat_lng[20.235004-12.92528-32-0]",
+  "test_main.py::test_status_code[-14.235004--51.92528-62-16]",
+  "test_main.py::test_status_code[-10.235004-30.92528-100-37]",
+  "test_main.py::test_status_code[20.235004-12.92528-32-0]"
+]

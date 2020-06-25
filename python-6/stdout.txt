@@ -1,0 +1,21 @@
+============================= test session starts =============================
+platform win32 -- Python 3.8.0, pytest-3.6.2, py-1.5.3, pluggy-0.6.0 -- C:\Users\MANAGER\AppData\Local\Programs\Python\Python38\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\MANAGER\codenation\python-6, inifile:
+collecting ... collected 12 items
+
+test_submit.py::TestChalange2::test_instance_class PASSED                [  8%]
+test_submit.py::TestChalange2::test_protected_attribute_manager PASSED   [ 16%]
+test_submit.py::TestChalange2::test_protected_attribute PASSED           [ 25%]
+test_submit.py::TestChalange2::test_total_hours_seller PASSED            [ 33%]
+test_submit.py::TestChalange2::test_total_hours_manager PASSED           [ 41%]
+test_submit.py::TestChalange2::test_get_department_seller PASSED         [ 50%]
+test_submit.py::TestChalange2::test_get_department_manager PASSED        [ 58%]
+test_submit.py::TestChalange2::test_sales_seller PASSED                  [ 66%]
+test_submit.py::TestChalange2::test_protected_attribute_sales PASSED     [ 75%]
+test_submit.py::TestChalange2::test_calc_bonus_seller PASSED             [ 83%]
+test_submit.py::TestChalange2::test_calc_bonus_manger PASSED             [ 91%]
+test_submit.py::TestChalange2::test_get_sales_manger PASSED              [100%]
+
+----- generated xml file: C:\Users\MANAGER\codenation\python-6\output.xml -----
+========================== 12 passed in 0.09 seconds ==========================
